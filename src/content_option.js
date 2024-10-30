@@ -1,48 +1,48 @@
-const logotext = "JOHN";
+const logotext = "JP";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Portafolio JP",
+    description: "Soy Juan Pablo web devloper, estudiante de Analisi y desarrollo de software",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Soy JP Bienvenido",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Me gusta el Diseño web",
+        second: "Me gustan los Video Juegos",
+        third: "Me gusta el PC custom",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Soy estudiante de Analisis y desarrollo de software del SENA",
+    your_img_url: "http://localhost:3000/programador.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Cosas Acerca de mi",
+    aboutme: "Desde que tuve acceso a una computadora en mi colegio, me dedique a aprender, modificar y ensamblar equipos fisicos de computador. Ahora me gustrai seguir profundizando en su lemguage como se comunican de dispositivo a dispositivo y en la creacion de citios web ",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Tecnico en Manteniminto y Ensamble de PC",
+        where: "RedeComputo",
+        date: "2011",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Trabajador Social",
+        where: "Univercidad del Quindio",
+        date: "2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Tecnologo en Analisis y Desarrollo de Software",
+        where: "SENA",
+        date: "2025",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "HTML",
+        value: 80,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "CSS",
+        value: 80,
     },
     {
         name: "Javascript",
@@ -53,92 +53,56 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Java",
+        value: 40,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Creacion y diseño de sitios web segun lo requerimientos del cliente.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Resolucion de Problemas Empresariales",
+        description: "La creacion, diseño y transformacion de probemas reales empresariales, a soluciones por medio de programas.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Bots",
+        description: "Creacion de bots diseñados para relaizar actividades repetitivas en entornos empresariales.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://localhost:3000/rickymorthy.jpg",
+        description: "filtro de busqueda de personajes usando api.",
+        link: "https://rick-and-morty-api-nine-lyart.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://localhost:3000/arrays.jpg",
+        description: "Muestra de como se usan los diferentes Arrays.",
+        link: "https://arrays-methods.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://localhost:3000/contactenos.jpg",
+        description: "Creacion de un formulario de contactenos.",
+        link: "https://formulario-de-cont-ctenos-con-librer-a-email-js.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://localhost:3000/atlas.jpg",
+        description: "Maquetacion web proyecto atlas.",
+        link: "https://proyecto-atlas-lime.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://localhost:3000/edtravel.jpg",
+        description: "Maquetacion pagina web agencia de viajes.",
+        link: "https://maquetado-pagina-web-ed-travel.vercel.app/",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "carnagechu@gmail.com",
+    YOUR_FONE: "(+57)315-469-4903",
+    description: "Para cualqueir tipo de informacion, no dudes en hacermela llegar por medio de mi correo electronico. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +111,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Jincoxx",
+    //facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/juan-pablo-reinoso-mart%C3%ADnez-3a7593229/",
+    //twitter: "https://twitter.com",
 };
 export {
     meta,
